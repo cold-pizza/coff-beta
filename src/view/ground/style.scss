@@ -1,0 +1,39 @@
+.ground {
+    .play-ground {
+        position: relative;
+        width: 800px;
+        height: 800px;
+        background: #edf9ff;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        img {
+            width: 500px;
+            height: 600px;
+            z-index: 2;
+        }
+        .left {
+            position: absolute;
+            left: 0;
+        }
+        .right {
+            position: absolute;
+            right: 70px;
+            bottom: -30px;
+        }
+        .field-line {
+            position: relative;
+            border: 2px solid black;
+            width: 200px;
+            height: 400px;
+            margin-bottom: 60px;
+            z-index: 3;
+            .char {
+                width: 100px;
+                height: 100px;
+                position: absolute;
+                outline: none;
+            }
+        }
+    }
+}
