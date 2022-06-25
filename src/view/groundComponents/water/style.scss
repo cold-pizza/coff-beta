@@ -1,0 +1,12 @@
+.water {
+    width: 150px;
+    height: 150px;
+    background: #eee;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    z-index: 5;
+    p {
+        padding-left: 8px;
+    }
+}

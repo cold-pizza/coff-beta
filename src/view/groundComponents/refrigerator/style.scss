@@ -1,0 +1,12 @@
+.refrigerator {
+    width: 150px;
+    height: 160px;
+    background: #eee;
+    position: absolute;
+    top: 300px;
+    left: 550px;
+    z-index: 5;
+    p {
+        padding-left: 8px;
+    }
+}

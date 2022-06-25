@@ -1,9 +1,12 @@
-.coffee-machine {
+.output {
     width: 150px;
     height: 150px;
     background: #eee;
     position: absolute;
-    top: 350px;
+    top: 400px;
     left: 100px;
     z-index: 5;
+    p {
+        padding-left: 8px;
+    }
 }
